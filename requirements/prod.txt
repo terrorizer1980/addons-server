@@ -495,7 +495,7 @@ google-resumable-media==1.3.0 \
 proto-plus==1.18.1 \
     --hash=sha256:600e2793ec1a0bf2b9e5ba18cd9eccbc1bc690a03c73b571bbe59789fbaaeecc \
     --hash=sha256:cfc45474c7eda0fe3c4b9eca2542124f2a0ff5543242bec61e8d08bce0f5bd48
-protobuf==3.17.1 \
+protobuf==3.18.3 \
     --hash=sha256:6e48c9b26d8e262331c79b208c4bf6b499a71912b1213d77b63c5ca248fc2a4e \
     --hash=sha256:d06ef0f7873e04e2d1a2bfa0701d063e4dde5242b2946c6f071a442e4cb3be0b \
     --hash=sha256:437d4681160ac5310457c4dc8ab973ec56769a236c479393c53fa71a26dfb38f \
