@@ -130,3 +130,4 @@ typed-ast==1.4.3 \
     --hash=sha256:fb1bbeac803adea29cedd70781399c99138358c26d05fcbd23c13016b7f5ec65
 flake8-quotes==3.2.0 \
     --hash=sha256:3f1116e985ef437c130431ac92f9b3155f8f652fda7405ac22ffdfd7a9d1055e
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
