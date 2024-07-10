@@ -474,7 +474,7 @@ yara-python==4.1.0 \
     --hash=sha256:7dd2aaf0c0bb8d8399d74b60bbb23cb90863ae4faf2d22fb72141b7884daa618 \
     --hash=sha256:f5d95c4dd5d954972a06aadcf59aa2f427c5593376dcf550b349a09106c2dc48
 # zipp is required by importlib-metadata
-zipp==3.4.1 \
+zipp==3.19.1 \
     --hash=sha256:51cb66cc54621609dd593d1787f286ee42a5c0adbb4b29abea5a63edc3e03098 \
     --hash=sha256:3607921face881ba3e026887d8150cca609d517579abe052ac81fc5aeffdbd76
 google-cloud-bigquery==2.17.0 \
@@ -530,3 +530,4 @@ cached-property==1.5.2 \
 django-jsonfield-backport==1.0.3 \
     --hash=sha256:c2a559a32b95406a08f02fabc0aec08efa9ce677f4e206ababb6a303359419a8 \
     --hash=sha256:e5645cf17f252879e3759eb28caecd51692a000a076de9d91e5a1de03cb9542e
+django>=4.2.14 # not directly required, pinned by Snyk to avoid a vulnerability
