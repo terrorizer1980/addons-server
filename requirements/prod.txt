@@ -530,3 +530,4 @@ cached-property==1.5.2 \
 django-jsonfield-backport==1.0.3 \
     --hash=sha256:c2a559a32b95406a08f02fabc0aec08efa9ce677f4e206ababb6a303359419a8 \
     --hash=sha256:e5645cf17f252879e3759eb28caecd51692a000a076de9d91e5a1de03cb9542e
+django>=4.2.15 # not directly required, pinned by Snyk to avoid a vulnerability
