@@ -2,7 +2,7 @@ Babel==2.9.1 \
     --hash=sha256:ab49e12b91d937cd11f0b67cb259a57ab4ad2b59ac7a3b41d6c06c0ac5b0def9 \
     --hash=sha256:bc0c176f9f6a994582230df350aa6e05ba2ebe4b3ac317eab29d9be5d2768da0
 # Jinja2 is required by Sphinx
-Jinja2==2.11.3 \
+Jinja2==3.1.6 \
     --hash=sha256:03e47ad063331dd6a3f04a43eddca8a966a26ba0c5b7207a9a9e4e08f1b29419 \
     --hash=sha256:a6d58433de0ae800347cab1fa3043cebbabe8baa9d29e668f1c768cb87a333c6
 # MarkupSafe is required by Jinja2
@@ -530,3 +530,4 @@ cached-property==1.5.2 \
 django-jsonfield-backport==1.0.3 \
     --hash=sha256:c2a559a32b95406a08f02fabc0aec08efa9ce677f4e206ababb6a303359419a8 \
     --hash=sha256:e5645cf17f252879e3759eb28caecd51692a000a076de9d91e5a1de03cb9542e
+django>=4.2.20 # not directly required, pinned by Snyk to avoid a vulnerability
