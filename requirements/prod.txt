@@ -458,7 +458,7 @@ cachetools==4.2.2 \
     --hash=sha256:2cc0b89715337ab6dbba85b5b50effe2b0c74e035d83ee8ed637cf52f12ae001 \
     --hash=sha256:61b5ed1e22a0924aed1d23b478f37e8d52549ff8a961de2909c69bf950020cff
 # sqlparse is required by django2.2+
-sqlparse==0.4.1 \
+sqlparse==0.5.4 \
     --hash=sha256:017cde379adbd6a1f15a61873f43e8274179378e95ef3fede90b5aa64d304ed0 \
     --hash=sha256:0f91fd2e829c44362cbcfab3e9ae12e22badaa8a29ad5ff599f9ec109f0454e8
 yara-python==4.1.0 \
@@ -530,3 +530,4 @@ cached-property==1.5.2 \
 django-jsonfield-backport==1.0.3 \
     --hash=sha256:c2a559a32b95406a08f02fabc0aec08efa9ce677f4e206ababb6a303359419a8 \
     --hash=sha256:e5645cf17f252879e3759eb28caecd51692a000a076de9d91e5a1de03cb9542e
+django>=4.2.27 # not directly required, pinned by Snyk to avoid a vulnerability
